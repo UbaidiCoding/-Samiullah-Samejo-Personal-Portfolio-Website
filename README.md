@@ -3,7 +3,7 @@
 Welcome to my personal developer portfolio built using **HTML, CSS, JS, and Python**.
 
 ## 🌐 Live Preview
-[View Website](https://SamiUbaidi.github.io/portfolio-website)
+[View Website](https://UbaidiCoding.github.io/portfolio-website)
 
 ## 📁 Project Structure
 
