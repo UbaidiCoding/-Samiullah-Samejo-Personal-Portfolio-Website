@@ -1,0 +1,99 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Sections */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.btn-warning {
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+.btn-primary {
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+}
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Social Icons */
+.social-icons a {
+  transition: transform 0.3s;
+}
+.social-icons a:hover {
+  transform: scale(1.3);
+}
+
+/* Footer */
+footer {
+  background: #222;
+}
+
+/* Scroll To Top Button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  display: none;
+  z-index: 999;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#scrollTopBtn:hover {
+  background: #0056b3;
+}
